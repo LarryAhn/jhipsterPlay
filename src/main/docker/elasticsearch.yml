@@ -1,0 +1,10 @@
+version: '2'
+services:
+    jhipsterplay-elasticsearch:
+        container_name: jhipsterplay-elasticsearch
+        image: elasticsearch:2.4.0
+        # volumes:
+        #     - ~/volumes/jhipster/jhipsterPlay/elasticsearch/:/usr/share/elasticsearch/data/
+        ports:
+            - 9200:9200
+            - 9300:9300
