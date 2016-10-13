@@ -63,7 +63,7 @@ To setup this project in Jenkins, use the following configuration:
 
 * Project name: `jhipsterPlay`
 * Source Code Management
-    * Git Repository: `git@github.com:xxxx/jhipsterPlay.git`
+    * Git Repository: `git@github.com:LawrenceAhn/jhipsterPlay.git`
     * Branches to build: `*/master`
     * Additional Behaviours: `Wipe out repository & force clone`
 * Build Triggers
